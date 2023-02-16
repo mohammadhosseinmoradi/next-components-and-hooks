@@ -1,7 +1,7 @@
 import '@/src/styles/globals.css';
 import '@/public/fontawesome/css/all.css'
 import Link from "next/link";
-import Navigation from "@/src/app/components/navigation";
+import Navigation from "@/src/app/navigation";
 
 export default function Layout({children}) {
 

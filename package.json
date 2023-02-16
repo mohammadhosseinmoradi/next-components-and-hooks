@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-components-and-hooks",
+  "name": "next-components-and-hooks",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui-float/react": "^0.10.1",
+    "@headlessui/react": "^1.7.11",
     "@next/font": "13.1.6",
+    "@tailwindcss/container-queries": "^0.1.0",
+    "framer-motion": "^9.0.3",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4"
