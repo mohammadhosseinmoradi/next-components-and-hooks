@@ -4,7 +4,7 @@ import {useSelectedLayoutSegments} from "next/navigation";
 import Link from "next/link";
 import {useMemo} from "react";
 
-export default function NavLink({href, className, style = {}, ...otherProps}) {
+export default function NavLink({href, className, style = {}, children, ...otherProps}) {
     const layoutSegments = useSelectedLayoutSegments();
     const url = new URL(href, 'http://test.com');
     const path = url.pathname;
@@ -19,7 +19,7 @@ export default function NavLink({href, className, style = {}, ...otherProps}) {
         }, true);
     }, [href, layoutSegments]) && urlSegments.length === layoutSegments.length;
 
-    return <Link
+    return typeof children === 'function' ? children({isActive, hasActiveChildren}) : <Link
         href={href}
         className={`${typeof className === 'function' ? className({isActive, hasActiveChildren}) : className}`}
         style={typeof style === 'function' ? style({isActive, hasActiveChildren}) : style}
