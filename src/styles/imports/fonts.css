@@ -1,0 +1,127 @@
+@font-face {
+    font-family: IRANYekan;
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(../../../public/fonts/IRANYekanWeb-Thin.woff) format("woff");
+}
+
+@font-face {
+    font-family: IRANYekan;
+    font-style:  normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../../../public/fonts/IRANYekanWeb-Light.woff2) format("woff2"),
+    url(../../../public/fonts/IRANYekanWeb-Light.woff) format("woff");
+}
+
+@font-face {
+    font-family: IRANYekan;
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../../../public/fonts/IRANYekanWeb-Regular.woff2) format("woff2"),
+    url(../../../public/fonts/IRANYekanWeb-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: IRANYekan;
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../../../public/fonts/IRANYekanWeb-Medium.woff) format("woff");
+}
+
+@font-face {
+    font-family: IRANYekan;
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../../../public/fonts/IRANYekanWeb-Bold.woff2) format("woff2"),
+    url(../../../public/fonts/IRANYekanWeb-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: IRANYekan;
+    font-style:  normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(../../../public/fonts/IRANYekanWeb-Extrabold.woff) format("woff");
+}
+
+@font-face {
+    font-family: IRANYekan;
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(../../../public/fonts/IRANYekanWeb-Black.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(../../../public/fonts/Inter-Thin.woff2?v=3.19) format("woff2"),
+    url(../../../public/fonts/Inter-Thin.woff?v=3.19) format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../../../public/fonts/Inter-Light.woff2?v=3.19) format("woff2"),
+    url(../../../public/fonts/Inter-Light.woff?v=3.19) format("woff");
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../../../public/fonts/Inter-Regular.woff2?v=3.19) format("woff2"),
+    url(../../../public/fonts/Inter-Regular.woff?v=3.19) format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../../../public/fonts/Inter-Medium.woff2?v=3.19) format("woff2"),
+    url(../../../public/fonts/Inter-Medium.woff?v=3.19) format("woff");
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../../../public/fonts/Inter-Bold.woff2?v=3.19) format("woff2"),
+    url(../../../public/fonts/Inter-Bold.woff?v=3.19) format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(../../../public/fonts/Inter-ExtraBold.woff2?v=3.19) format("woff2"),
+    url(../../../public/fonts/Inter-ExtraBold.woff?v=3.19) format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(../../../public/fonts/Inter-Black.woff2?v=3.19) format("woff2"),
+    url(../../../public/fonts/Inter-Black.woff?v=3.19) format("woff");
+}
+
+body {
+    font-family: IRANYekan, Inter, serif;
+}
