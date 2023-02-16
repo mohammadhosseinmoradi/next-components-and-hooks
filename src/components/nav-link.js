@@ -23,5 +23,5 @@ export default function NavLink({href, className, style = {}, children, ...other
         href={href}
         className={`${typeof className === 'function' ? className({isActive, hasActiveChildren}) : className}`}
         style={typeof style === 'function' ? style({isActive, hasActiveChildren}) : style}
-        {...otherProps}/>
+        {...otherProps} children={children}/>
 }
