@@ -5,15 +5,15 @@ import Navigation from "@/src/app/navigation";
 
 export default function Layout({children}) {
 
-    return <html>
+    return <html className='min-h-full flex flex-col'>
     <head>
         <title>
             Next app
         </title>
     </head>
-    <body className='bg-black text-neutral-200'>
-    <header className='bg-neutral-800 px-6 py-4'>
-        <div className='w-full max-w-7xl'>
+    <body className='grow flex flex-col min-h-full bg-black text-neutral-200'>
+    <header className='sticky top-0 px-6 py-4 border-b border-neutral-900'>
+        <div className='w-full max-w-7xl mx-auto'>
             <div className='flex gap-6 items-center'>
                 <Link href=''>
                     <i className="fa-brands fa-react text-xl"></i>
@@ -23,7 +23,7 @@ export default function Layout({children}) {
             </div>
         </div>
     </header>
-    <main>
+    <main className='grow flex flex-col'>
         {
             children
         }

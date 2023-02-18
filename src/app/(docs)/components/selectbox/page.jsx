@@ -16,9 +16,14 @@ export default function Page() {
     const [selected2, setSelected2] = useState(options[0]);
     const ref = useRef();
 
-    return <div className='p-6'>
-        <div className='w-full max-w-7xl mx-auto'>
-            Index
+    return <div className='p-6 h-full'>
+        <div className='flex justify-center'>
+
+            <div className='w-64'>
+                <Combobox selected={selected} options={options} onChange={setSelected} placeholder='Select' withFilterbox/>
+                <Listbox ref={ref} className='mt-6' selected={selected2} options={options} onChange={setSelected2} placeholder='Select' withFilterbox/>
+            </div>
+
         </div>
     </div>
 }

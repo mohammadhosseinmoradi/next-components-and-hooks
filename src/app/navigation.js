@@ -8,16 +8,12 @@ export default function Navigation() {
         {
             [
                 {
-                    name: 'Posts',
-                    url: '/posts',
+                    name: 'Components',
+                    url: '/components',
                 },
                 {
-                    name: 'Posts one',
-                    url: '/posts/one',
-                },
-                {
-                    name: 'Sign in',
-                    url: '/sign-in',
+                    name: 'Hooks',
+                    url: '/hooks',
                 },
             ].map(menuItem => {
                 return <li className='text-neutral-500 hover:text-neutral-200' key={menuItem.name}>
